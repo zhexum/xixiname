@@ -1,0 +1,15 @@
+<!--pages/orders/orders.wxml-->
+<view class="container">
+  <text class="title">订单详情</text>
+
+  <block wx:for="{{orders}}" wx:key="index">
+    <view class="order-item">
+      <text class="item-name">{{item.name}}</text>
+      <text class="item-quantity">数量: {{item.quantity}}</text>
+    </view>
+  </block>
+
+  <view wx:if="{{orders.length === 0}}" class="no-orders">
+    <text>暂无订单</text>
+  </view>
+</view>

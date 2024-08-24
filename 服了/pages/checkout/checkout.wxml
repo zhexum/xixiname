@@ -1,0 +1,29 @@
+<!--pages/checkout/checkout.wxml-->
+<view class="container">
+  <view class="order-summary">
+    <view class="title"><text class="summary-title">订单确认</text></view>
+    <view wx:for="{{cartItems}}" wx:key="id" class="order-item">
+      <image src="{{item.image}}" class="order-item-image"></image>
+      <view class="order-item-info">
+        <text class="order-item-name">{{item.name}}</text>
+        <text class="order-item-price">¥{{item.price}}
+        
+        </text>
+        <text class="order-item-quantity">数量: {{item.quantity}}</text>
+      </view>
+    </view>
+    <view class="order-total">
+      <text>总价: ¥{{totalPrice}}</text>
+    </view>
+  </view>
+  <view class="payment-method">
+    <text class="method-title">选择支付方式</text>
+    <picker mode="selector" range="{{paymentMethods}}" value="{{selectedMethodIndex}}" bindchange="onPaymentMethodChange">
+      <view class="picker">
+        {{paymentMethods[selectedMethodIndex]}}
+      </view>
+    </picker>
+  </view>
+  <button class="pay-button" bindtap="makePayment">确认支付</button>
+</view>
+

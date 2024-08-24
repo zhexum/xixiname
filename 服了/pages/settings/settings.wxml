@@ -1,0 +1,18 @@
+<!--pages/settings/settings.wxml-->
+<view class="container">
+  <text class="title">设置</text>
+
+  <view class="saved-address-section">
+    <text class="label">当前地址</text>
+    <view class="address-display">
+      <text>{{address || '暂无地址'}}</text>
+    </view>
+  </view>
+  
+  <view class="address-section">
+    <text class="label">修改地址</text>
+    <input class="address-input" type="text" placeholder="请输入新地址" bindinput="onAddressInput" value="{{address}}" />
+    <button class="save-button" bindtap="saveAddress">保存</button>
+  </view>
+
+</view>

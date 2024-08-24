@@ -1,0 +1,31 @@
+
+<!--pages/banana-details/banana-details.wxml-->
+<view class="container">
+  <image class="image" src="../../图片/banana.png" ></image>
+  <view class="info">
+    <text class="name" >美味的香蕉</text>
+    <text class="price" >价格: 12.00元/斤</text>
+    <text class="description" >
+
+      自然之果，活力之源 —— 我们的香蕉
+
+🌴 热带阳光的馈赠 —— 每一根香蕉都沐浴在热带阳光下，吸收充足的热量，为您带来满满的活力。
+
+💪 能量满满，活力每一天 —— 香蕉富含天然糖分和钾，是您运动前后的理想选择，快速补充能量，让您活力四射。
+
+🍌 软糯香甜，口感细腻 —— 轻轻剥开香蕉皮，软糯的果肉在舌尖融化，香甜的味道让人回味无穷。
+
+🌱 自然成熟，健康之选 —— 我们坚持自然成熟，不使用任何催熟剂，确保每一根香蕉都是健康安全的。
+
+🌈 多种食用方式，创意无限 —— 无论是直接食用，还是搭配酸奶、燕麦，香蕉都能成为您创意料理的灵感来源。
+
+🛒 便捷购买，新鲜直达 —— 我们提供在线订购服务，确保您能够轻松购买到最新鲜的香蕉。
+
+🌟 品质保证，顾客至上 —— 我们承诺，每一根香蕉都经过严格筛选，只为给您带来最佳的食用体验。</text>
+    <view class="quantity">
+      <text >库存:9999</text>
+     <!-- <input type="number" min="1" value="1" bindinput="onQuantityChange" data-id="{{product.id}}"/>-->
+    </view>
+    <button class="tocart" bindtap="addToCart" ><navigator>加入购物车</navigator></button>
+  </view>
+</view>

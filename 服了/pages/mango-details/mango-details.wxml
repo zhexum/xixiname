@@ -1,0 +1,30 @@
+<!--pages/pear-details/pear-details.wxml-->
+<view class="container">
+  <image class="image" src="/图片/mango.png" ></image>
+  <view class="info">
+    <text class="name" >硕大的芒果</text>
+    <text class="price" >价格: 9.00元/斤</text>
+    <text class="description" >
+
+      热带风情，甜蜜诱惑 —— 我们的芒果
+
+🥭 阳光下的金色果实 —— 沐浴在热带阳光下，我们的芒果吸收了充足的阳光和雨露，呈现出诱人的金黄色泽。
+
+🌺 香气四溢，甜蜜诱人 —— 打开芒果的那一刻，浓郁的香气扑鼻而来，甜美的滋味让人沉醉，是您无法抗拒的热带诱惑。
+
+🍃 自然成熟，健康之选 —— 我们坚持让芒果在树上自然成熟，不使用任何化学催熟剂，确保您享受到最健康、最天然的芒果。
+
+🥄 口感细腻，多汁易食 —— 芒果肉质细腻，汁液丰富，轻轻一咬，甘甜的果汁便在口中流淌，带来无与伦比的食用体验。
+
+🌈 多样用途，创意无限 —— 芒果不仅适合直接食用，还可用于制作果汁、冰淇淋、甜点等，为您的餐桌增添无限创意。
+
+🛒 新鲜直达，便捷购买 —— 我们提供在线订购服务，确保您能够轻松购买到最新鲜的芒果，享受便捷的购物体验。
+
+🌟 品质保证，顾客至上 —— 我们严格筛选每一颗芒果，确保品质上乘，满足您对芒果的所有期待。</text>
+    <view class="quantity">
+      <text >库存:9999</text>
+     <!-- <input type="number" min="1" value="1" bindinput="onQuantityChange" data-id="{{product.id}}"/>-->
+    </view>
+    <button class="tocart" bindtap="addToCart" ><navigator>加入购物车</navigator></button>
+  </view>
+</view>

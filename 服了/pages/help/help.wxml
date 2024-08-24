@@ -1,0 +1,8 @@
+<!--pages/help/help.wxml-->
+<view class="container">
+  <text class="title">帮助
+  </text>
+  <!-- 帮助内容展示 -->
+  <text class="description">小程序正在测试阶段，详情请致电</text>
+     <text>000-12345678910</text>
+</view>

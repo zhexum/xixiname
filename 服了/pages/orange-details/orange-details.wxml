@@ -1,0 +1,30 @@
+<!--pages/orange-details/orange-details.wxml-->
+<view class="container">
+  <image class="image" src="/图片/orange.png" ></image>
+  <view class="info">
+    <text class="name" >新鲜的柑橘</text>
+    <text class="price" >价格: 4.00元/斤</text>
+    <text class="description" >
+
+      阳光下的甜蜜果实 —— 我们的柑橘
+
+🍊 阳光孕育的甜蜜 —— 在温暖阳光的照耀下，我们的柑橘吸收了充足的光合作用，每一颗都饱含自然的甜蜜。
+
+🌱 新鲜采摘，活力满满 —— 我们坚持新鲜采摘，确保每一颗柑橘都充满活力，为您的每一天注入清新的活力。
+
+💧 多汁爽口，滋味无穷 —— 轻轻一咬，柑橘的汁液瞬间爆发，酸甜适中的口感，带给您无限的味觉享受。
+
+🍃 富含维生素C，健康守护 —— 柑橘是维生素C的天然宝库，有助于增强免疫力，是您健康生活的守护者。
+
+🌈 多样品种，满足不同需求 —— 从甜美的橙子到清新的柚子，我们提供多种柑橘品种，满足您对不同口味的追求。
+
+🛒 便捷购买，新鲜直达 —— 我们提供便捷的在线订购服务，让您轻松享受新鲜直达的柑橘。
+
+🌟 品质保证，顾客满意 —— 我们对每一颗柑橘都进行严格筛选，确保品质上乘，让您的每一次购买都充满信心。</text>
+    <view class="quantity">
+      <text >库存:9999</text>
+     <!-- <input type="number" min="1" value="1" bindinput="onQuantityChange" data-id="{{product.id}}"/>-->
+    </view>
+    <button class="tocart" bindtap="addToCart" ><navigator>加入购物车</navigator></button>
+  </view>
+</view>

@@ -1,0 +1,30 @@
+<!--pages/mangosteen-details/mangosteen-details.wxml-->
+<view class="container">
+  <image class="image" src="/图片/mangosteen.png" ></image>
+  <view class="info">
+    <text class="name" >酸甜的山竹</text>
+    <text class="price" >价格: 25.00元/斤</text>
+    <text class="description" >
+
+      皇室之果，山竹的优雅 —— 我们的山竹
+
+🌿 自然的珍宝 —— 山竹，被誉为"水果皇后"，以其独特的风味和营养价值，成为热带水果中的贵族。
+
+💧 多汁清甜，口感细腻 —— 剥开坚硬的外壳，露出洁白如玉的果肉，每一口都是清甜多汁，细腻柔软，让人回味无穷。
+
+🌱 自然成熟，健康之选 —— 我们精心培育的山竹，遵循自然规律生长，不使用任何化学催熟剂，确保您享受到最纯净的美味。
+
+🍃 清凉解暑，营养丰富 —— 山竹含有丰富的维生素和矿物质，具有清凉解暑的功效，是夏日里的健康选择。
+
+🌈 多样搭配，创意无限 —— 山竹不仅可以单独食用，还可以搭配其他水果制作沙拉，或作为甜品的点睛之笔。
+
+🛒 新鲜直达，便捷购买 —— 我们提供便捷的在线订购服务，确保您能够轻松购买到最新鲜的山竹。
+
+🌟 品质保证，顾客至上 —— 我们严格把控每一颗山竹的品质，确保您享受到最优质的水果体验。</text>
+    <view class="quantity">
+      <text >库存:9999</text>
+     <!-- <input type="number" min="1" value="1" bindinput="onQuantityChange" data-id="{{product.id}}"/>-->
+    </view>
+    <button class="tocart" bindtap="addToCart" ><navigator>加入购物车</navigator></button>
+  </view>
+</view>

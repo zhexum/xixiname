@@ -1,0 +1,30 @@
+<!--pages/grape-details/grape-details.wxml-->
+<view class="container">
+  <image class="image" src="/图片/grape.png" ></image>
+  <view class="info">
+    <text class="name" >饱满的葡萄</text>
+    <text class="price" >价格: 11.00元/斤</text>
+    <text class="description" >
+
+      甜蜜滋味，自然馈赠 —— 我们的葡萄
+
+🍇 阳光下的宝石 —— 在充足的阳光照耀下，我们的葡萄如同宝石般晶莹剔透，每一颗都蕴含着自然的甜蜜。
+
+🌟 多汁饱满，口感丰富 —— 轻轻一咬，汁液四溢，浓郁的果香在口中绽放，带给您无与伦比的味觉享受。
+
+🌱 自然成熟，无添加 —— 我们承诺，每一颗葡萄都是自然成熟，不使用任何化学添加剂，确保您享受到最纯净的美味。
+
+🍇 品种多样，满足不同口味 —— 从甜美的红提，到清爽的绿葡萄，再到香醇的黑葡萄，我们提供多种品种，满足您对葡萄的所有期待。
+
+🌿 健康之选，营养丰富 —— 葡萄含有丰富的维生素和矿物质，是健康饮食的完美选择，为您和家人的健康加分。
+
+🛒 便捷购买，新鲜直达 —— 无论是在线下单还是亲临果园，我们都致力于为您提供最便捷的购买体验。
+
+🌟 品质保证，顾客至上 —— 我们严格把控品质，确保每一颗葡萄都能达到您的高标准，让您的每一次购买都充满信心。</text>
+    <view class="quantity">
+      <text >库存:9999</text>
+     <!-- <input type="number" min="1" value="1" bindinput="onQuantityChange" data-id="{{product.id}}"/>-->
+    </view>
+    <button class="tocart" bindtap="addToCart" ><navigator>加入购物车</navigator></button>
+  </view>
+</view>

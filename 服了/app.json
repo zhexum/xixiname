@@ -1,0 +1,50 @@
+
+  {
+    "pages": [
+      "pages/index/index",
+      "pages/apple-details/apple-details",
+      "pages/banana-details/banana-details",
+      "pages/pear-details/pear-details",
+      "pages/cart/cart",
+      "pages/checkout/checkout",
+      "pages/order/order",
+      "pages/cart2/cart2",
+      "pages/pineapple-details/pineapple-details",
+      "pages/mangosteen-details/mangosteen-details",
+      "pages/peach-details/peach-details",
+      "pages/orange-details/orange-details",
+      "pages/mango-details/mango-details",
+      "pages/grape-details/grape-details",
+      "pages/orders/orders",
+      "pages/settings/settings",
+      "pages/help/help",
+      "pages/jujube-details/jujube-details"
+    ],
+    "window": {
+      "navigationBarTitleText": "夕夕助农商城"
+    },
+    "tabBar": {
+      "selectedColor": "#84edd4",
+      "list": [
+          {
+              "pagePath": "pages/index/index",
+              "iconPath": "/图片/home.png",
+              "selectedIconPath": "/图片/tabbar-home-selected.png",
+              "text": "首页"
+          },
+          {
+              "pagePath": "pages/cart2/cart2",
+              "iconPath": "/图片/cart.png",
+              "selectedIconPath": "/图片/cart.selected.png",
+              "text": "购物车"
+          },
+          {
+              "pagePath": "pages/order/order",
+              "iconPath": "/图片/login.png",
+              "selectedIconPath": "/图片/tabbar-login-selected.png",
+              "text": "我的"
+          }
+      ]
+  }
+  }
+    

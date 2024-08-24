@@ -1,0 +1,36 @@
+<!--pages/apple-details/apple-details.wxml-->
+<view class="container">
+  <image src="../../图片/Apple.png" mode="aspectFill"></image>
+  <view class="info">
+    <text class="name" >好吃的苹果</text>
+    <text class="price" >价格: 8.00元/斤</text>
+    <text class="description" >
+
+      新鲜采摘，自然之选 —— 我们的苹果
+
+🍏 来自阳光充足的果园 —— 我们精心培育的苹果，沐浴在充足的阳光下，汲取大自然的精华，为您带来最天然的甜美。
+
+🌿 无农药残留，健康之选 —— 我们承诺，每一颗苹果都是自然成熟，无化学农药污染，让您吃得放心，享受健康。
+
+💧 多汁脆甜，口感极佳 —— 咬一口，果汁四溢，清脆的声响伴随着甜美的滋味，是您餐桌上不可或缺的美味。
+
+🍎 品种丰富，满足不同口味 —— 从红富士到青苹果，从金苹果到嘎啦果，我们提供多种选择，满足您对苹果的所有期待。
+
+🛒 方便快捷的购买体验 —— 无论是在线下单还是亲临果园，我们都致力于为您提供最便捷的购买方式。
+
+🌟 新鲜直达，品质保证 —— 我们承诺，每一颗苹果都是从树上直接送到您手中，确保您享受到最新鲜的口感。</text>
+    <view class="quantity">
+      <text >库存:9999</text>
+     <!-- <input type="number" min="1" value="1" bindinput="onQuantityChange" data-id="{{product.id}}"/>-->
+    </view>
+    <button class="tocart" bindtap="addToCart" ><navigator>加入购物车</navigator></button>
+  </view>
+  <!--<view class="detail-container" >
+  <image class="detail-image" src="{{product.image}}"></image>
+  <text class="detail-name">{{product.name}}</text>
+  <text class="detail-description">{{product.description}}</text>
+  <text class="detail-price">￥{{product.price}}</text>
+</view>-->
+</view>
+
+

@@ -1,0 +1,23 @@
+<!--pages/cart2/cart2.wxml-->
+<view class="container">
+<view class="sos"><text class="title">购物车</text></view>
+<button class="btn" bindtap="refreshData" style="position: relative; left: 306rpx; top: -28rpx">刷新</button>
+  <view wx:for="{{cartItems}}" wx:key="id" class="cart-item">
+    <image src="{{item.image}}" class="cart-item-image"></image>
+    <view class="cart-item-info">
+      <text class="cart-item-name">{{item.name}}</text>
+      <text class="cart-item-price">{{item.price}}元/斤
+      </text>
+      <view class="cart-item-quantity">
+        <button class="quantity-btn" bindtap="decreaseQuantity" data-id="{{item.id}}">-</button>
+        <text class="quantity">{{item.quantity}}</text>
+        <button class="quantity-btn" bindtap="increaseQuantity" data-id="{{item.id}}">+</button>
+      </view>
+    </view>
+      <button class="delete-btn" bindtap="deleteItem" data-id="{{item.id}}"  >删除</button>
+  </view>
+  <view class="total">
+    <text class="allprice">总价: ¥{{totalPrice}}</text>
+    <button class="checkout" bindtap="checkout">结算</button>
+  </view>
+</view>

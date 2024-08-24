@@ -1,0 +1,49 @@
+/* pages/settings/settings.wxss */
+.container {
+  padding: 20px;
+}
+
+.title{
+  font-size: 24px;
+  font-weight: bold;
+  height: 50px;
+}
+
+.address-section {
+  margin-top: 30px;
+  width:90%;
+}
+
+.saved-address-section {
+  margin-top: 30px;
+  width:90%;
+}
+
+.label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.address-input {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.save-button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: whitesmoke;
+  color:black;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.address-display {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 95%;
+}

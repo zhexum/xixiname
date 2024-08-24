@@ -1,0 +1,32 @@
+<!--pages/jujube-details/jujube-details.wxml-->
+<view class="container">
+  <image class="image" src="/图片/jujube.png" ></image>
+  <view class="info">
+    <text class="name" >香甜的脆枣</text>
+    <text class="price" >价格: 7.00元/斤</text>
+    <text class="description" >
+
+      甜蜜滋养，自然恩赐 —— 我们的枣子
+
+🌰 自然精华，甜蜜滋味 —— 我们的枣子，汲取了大地的养分和阳光的温暖，每一颗都蕴藏着自然的甜蜜与精华。
+
+🍂 红润光泽，诱人外观 —— 枣子的外皮红润透亮，如同宝石般诱人，让人一见倾心，期待它带来的美味。
+
+💧 汁液丰富，口感细腻 —— 轻轻一咬，枣子的汁液便在口中四溢，细腻的口感与自然的甜味交织，令人回味无穷。
+
+🌱 健康之选，营养丰富 —— 枣子含有丰富的维生素和矿物质，是天然的营养补充品，有助于增强体力和免疫力。
+
+🍃 传统滋补，现代享受 —— 枣子作为传统的滋补佳品，现在更是现代健康生活的理想选择，适合所有追求健康的人群。
+
+🌈 多样用途，创意搭配 —— 枣子不仅可以直接食用，还可以用于煲汤、煮粥或制作糕点，增添食物的风味和营养。
+
+🛒 新鲜直达，便捷购买 —— 我们提供便捷的在线订购服务，确保您能够轻松购买到最新鲜的枣子。
+
+🌟 品质保证，顾客满意 —— 我们对每一颗枣子都进行严格筛选，确保品质上乘，让您的每一次购买都充满信心。</text>
+    <view class="quantity">
+      <text >库存:9999</text>
+     <!-- <input type="number" min="1" value="1" bindinput="onQuantityChange" data-id="{{product.id}}"/>-->
+    </view>
+    <button class="tocart" bindtap="addToCart" ><navigator>加入购物车</navigator></button>
+  </view>
+</view>

@@ -1,0 +1,86 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="banner">
+   <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)"
+   indicator-active-color="#fff" circular autoplay interval="4000">
+   <swiper-item><image src="/图片/logo.png"></image></swiper-item>
+   <swiper-item><image src="/图片/logo1.png"></image></swiper-item>
+   <swiper-item><image src="/图片/logo2.png"></image></swiper-item>
+   </swiper>
+</view>
+
+<view class="product-list">
+
+    <!-- 苹果 -->
+    <view class="product-item" bindtap="viewAppleDetails">
+      <image src="/图片/Apple.png" class="product-image"></image>
+      <text class="product-name">苹果</text>
+      <text class="product-price">¥8.00/斤</text>
+    </view>
+    
+    <!-- 香蕉 -->
+    <view class="product-item" bindtap="viewBananaDetails">
+      <image src="/图片/banana.png" class="product-image"></image>
+      <text class="product-name">香蕉</text>
+      <text class="product-price">¥12.00/斤</text>
+    </view>
+
+    <view class="product-item" bindtap="viewPearDetails">
+      <image src="/图片/Pear.png" class="product-image"></image>
+      <text class="product-name">香梨</text>
+      <text class="product-price">¥10.00/斤</text>
+    </view>
+
+    <view class="product-item" bindtap="viewPineappleDetails">
+      <image src="/图片/pineapple.png" class="product-image"></image>
+      <text class="product-name">菠萝</text>
+      <text class="product-price">¥15.00/斤</text>
+    </view>
+
+    <view class="product-item" bindtap="viewMangosteenDetails">
+      <image src="/图片/mangosteen.png" class="product-image"></image>
+      <text class="product-name">山竹</text>
+      <text class="product-price">¥25.00/斤</text>
+    </view>
+
+    <view class="product-item" bindtap="viewPeachDetails">
+      <image src="/图片/peach.png" class="product-image"></image>
+      <text class="product-name">桃子</text>
+      <text class="product-price">¥9.00/斤</text>
+    </view>
+
+    <view class="product-item" bindtap="viewOrangeDetails">
+      <image src="/图片/orange.png" class="product-image"></image>
+      <text class="product-name">柑橘</text>
+      <text class="product-price">¥4.00/斤</text>
+    </view>
+
+    <view class="product-item" bindtap="viewMangoDetails">
+      <image src="/图片/mango.png" class="product-image"></image>
+      <text class="product-name">芒果</text>
+      <text class="product-price">¥9.00/斤</text>
+    </view>
+
+    <view class="product-item" bindtap="viewGrapeDetails">
+      <image src="/图片/grape.png" class="product-image"></image>
+      <text class="product-name">葡萄</text>
+      <text class="product-price">¥11.00/斤</text>
+    </view>
+
+    <view class="product-item" bindtap="viewJujubeDetails">
+      <image src="/图片/jujube.png" class="product-image"></image>
+      <text class="product-name">脆枣</text>
+      <text class="product-price">¥7.00/斤</text>
+    </view>
+
+</view>
+
+  
+  <view class="box">
+ 
+ <view class="box_2">
+   <view class="box_2_2" >消费提醒：货款直接给商家，由商家承担全部售后服务</view>
+ </view>
+</view>
+</view>
+

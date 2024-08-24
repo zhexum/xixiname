@@ -1,0 +1,30 @@
+<!--pages/pear-details/pear-details.wxml-->
+<view class="container">
+  <image class="image" src="/图片/Pear.png" ></image>
+  <view class="info">
+    <text class="name" >脆甜的香梨</text>
+    <text class="price" >价格: 10.00元/斤</text>
+    <text class="description" >
+
+      清新滋味，自然之选 —— 我们的梨子
+
+🍐 自然成熟的清甜 —— 在充足的阳光和肥沃的土壤中，我们的梨子自然成熟，散发出清新的果香，每一口都是自然的馈赠。
+
+🌿 多汁爽口，滋养身心 —— 梨子的汁液丰富，口感细腻，轻轻一咬，清凉的汁液便在口中流淌，为您带来身心的滋养。
+
+🌱 无化学添加，健康守护 —— 我们坚持不使用任何化学添加剂，确保每一颗梨子都是健康安全的，让您吃得放心。
+
+🍃 富含营养，益处多多 —— 梨子含有丰富的维生素和膳食纤维，有助于消化和增强免疫力，是健康饮食的理想选择。
+
+🌈 多样的食用方式 —— 无论是直接食用，还是制作成梨子汁、梨子派，我们的梨子都能满足您的不同需求。
+
+🛒 新鲜直达，便捷购买 —— 我们提供便捷的在线订购服务，确保您能够轻松购买到最新鲜的梨子。
+
+🌟 品质保证，顾客满意 —— 我们对每一颗梨子都进行严格筛选，确保品质上乘，让您的每一次购买都充满信心。</text>
+    <view class="quantity">
+      <text >库存:9999</text>
+     <!-- <input type="number" min="1" value="1" bindinput="onQuantityChange" data-id="{{product.id}}"/>-->
+    </view>
+    <button class="tocart" bindtap="addToCart" ><navigator>加入购物车</navigator></button>
+  </view>
+</view>

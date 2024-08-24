@@ -1,0 +1,32 @@
+<!--pages/pear-details/pear-details.wxml-->
+<view class="container">
+  <image class="image" src="/图片/peach.png" ></image>
+  <view class="info">
+    <text class="name" >美味的桃子</text>
+    <text class="price" >价格: 9.00元/斤</text>
+    <text class="description" >
+
+      甜蜜的诱惑，自然的馈赠 —— 我们的桃子
+
+🍑 夏日阳光的宠儿 —— 沐浴在夏日温暖的阳光下，我们的桃子在自然的怀抱中慢慢成熟，散发出诱人的香气。
+
+🌺 色泽诱人，香气扑鼻 —— 每一颗桃子都拥有鲜艳的色泽和迷人的香气，是夏日里不可多得的甜蜜享受。
+
+💦 汁液丰富，口感细腻 —— 轻轻一咬，桃子的汁液便在口中四溢，细腻的口感让人回味无穷。
+
+🌱 自然成熟，健康之选 —— 我们承诺，每一颗桃子都是自然成熟，不使用任何化学催熟剂，确保您享受到最健康、最天然的美味。
+
+🍃 营养丰富，益处多多 —— 桃子含有丰富的维生素和矿物质，是健康饮食的优选，为您的身体提供必要的营养。
+
+🌈 多样的食用方式 —— 无论是直接食用，还是制作成桃子酱、桃子派，我们的桃子都能满足您的烹饪创意。
+
+🛒 新鲜直达，便捷购买 —— 我们提供便捷的在线订购服务，确保您能够轻松购买到最新鲜的桃子。
+
+🌟 品质保证，顾客至上 —— 我们严格筛选每一颗桃子，确保品质上乘，让您的每一次购买都充满信心。</text>
+    <view class="quantity">
+      <text >库存:9999</text>
+     <!-- <input type="number" min="1" value="1" bindinput="onQuantityChange" data-id="{{product.id}}"/>-->
+    </view>
+    <button class="tocart" bindtap="addToCart" ><navigator>加入购物车</navigator></button>
+  </view>
+</view>

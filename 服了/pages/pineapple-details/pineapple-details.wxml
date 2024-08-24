@@ -1,0 +1,32 @@
+<!--pages/pineapple-details/pineapple-details.wxml-->
+<view class="container">
+  <image class="image" src="/图片/pineapple.png" ></image>
+  <view class="info">
+    <text class="name" >可口的菠萝</text>
+    <text class="price" >价格: 15.00元/斤</text>
+    <text class="description" >
+
+      热带风情，酸甜交织 —— 我们的菠萝
+      
+🍍 阳光下的黄金果 —— 在热带阳光的照耀下，我们的菠萝成熟，金黄色的外衣包裹着酸甜交织的美味。
+
+🌺 香气四溢，唤醒味蕾 —— 打开菠萝的那一刻，独特的香气扑鼻而来，唤醒您的味蕾，准备迎接一场热带风味的盛宴。
+
+💦 多汁爽口，酸甜平衡 —— 每一片菠萝都饱含汁液，酸甜的比例恰到好处，带来清新爽口的味觉体验。
+
+🌱 自然成熟，健康之选 —— 我们坚持让菠萝在最佳状态下自然成熟，不使用任何化学催熟剂，确保每一片都是健康美味的选择。
+
+🍃 富含维生素，营养丰富 —— 菠萝富含维生素C和锰，有助于增强免疫力和促进新陈代谢，是健康饮食的优选。
+
+🌈 多样搭配，创意无限 —— 无论是作为水果沙拉的一部分，还是搭配肉类烹饪，菠萝都能增添独特的风味。
+
+🛒 新鲜直达，便捷购买 —— 我们提供便捷的在线订购服务，确保您能够轻松购买到最新鲜的菠萝。
+
+🌟 品质保证，顾客至上 —— 我们对每一颗菠萝都进行严格筛选，确保品质上乘，让您的每一次购买都充满信心。</text>
+    <view class="quantity">
+      <text >库存:9999</text>
+     <!-- <input type="number" min="1" value="1" bindinput="onQuantityChange" data-id="{{product.id}}"/>-->
+    </view>
+    <button class="tocart" bindtap="addToCart" ><navigator>加入购物车</navigator></button>
+  </view>
+</view>
